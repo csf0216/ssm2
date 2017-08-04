@@ -23,6 +23,11 @@
 # Dump of table content
 # ------------------------------------------------------------
 
+DROP Database IF EXISTS `ssm`;
+
+CREATE Database ssm;
+use ssm;
+
 DROP TABLE IF EXISTS `content`;
 
 CREATE TABLE `content` (

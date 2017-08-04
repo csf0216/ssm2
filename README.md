@@ -134,3 +134,7 @@ https://github.com/crossoverJie/SSM-DUBBO-HTTP
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
+
+###run project
+1、module dependency配置
+2、cp SSM-API/target/classes/ SSM-WEB/target/ -r

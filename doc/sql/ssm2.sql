@@ -17,6 +17,11 @@
 SET NAMES utf8;
 SET FOREIGN_KEY_CHECKS = 0;
 
+DROP Database IF EXISTS `ssm2`;
+
+CREATE Database ssm2;
+use ssm2;
+
 -- ----------------------------
 --  Table structure for `datasource`
 -- ----------------------------

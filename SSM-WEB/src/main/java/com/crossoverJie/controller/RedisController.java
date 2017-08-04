@@ -5,7 +5,6 @@ import com.crossoverJie.dao.RediscontentMapper;
 import com.crossoverJie.enums.StatusEnum;
 import com.crossoverJie.pojo.Rediscontent;
 import com.crossoverJie.req.RedisContentReq;
-import com.crossoverJie.request.anotation.CheckReqNo;
 import com.crossoverJie.res.BaseResponse;
 import com.crossoverJie.service.RediscontentService;
 import com.crossoverJie.util.CommonUtil;
@@ -69,7 +68,6 @@ public class RedisController {
         CommonUtil.responseBuildJson(response, jsonObject);
     }
 
-    @CheckReqNo
     @RequestMapping(value = "/createRedisContent",method = RequestMethod.POST)
     @ResponseBody
     public BaseResponse<NULLBody> createRedisContent(@RequestBody RedisContentReq redisContentReq){
